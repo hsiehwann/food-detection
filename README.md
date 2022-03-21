@@ -1,1 +1,7 @@
-# food-detection
+
+
+專案整體流程：
+使用LabelIMG將物件標記類別，接著使用Roboflow將資料切分為訓練集、測試集和驗證集，再使用Colab線上GPU資源進行模型訓練，並評估模型訓練結果加以優化，最後部署至物聯網上。
+
+Yolov5s.ipyb為colab訓練yolov5s模型過程
+考量後續需部署至終端裝置上，使用模型容量小、推理速度快的yolov5s做為訓練
